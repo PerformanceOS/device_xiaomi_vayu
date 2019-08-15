@@ -229,7 +229,7 @@ service vendor.energy-awareness /vendor/bin/energy-awareness
     oneshot
 
 service nv_mac /vendor/bin/nv_mac
-    class late_start
+    class main
     user system
     group system inet net_admin wifi net_raw
     oneshot
