@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2018-2021 ArrowOS
+# Copyright (C) 2018-2021 FluidOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_vayu.mk
+    $(LOCAL_DIR)/fluid_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_vayu-eng \
-    arrow_vayu-userdebug \
-    arrow_vayu-user
+    fluid_vayu-eng \
+    fluid_vayu-userdebug \
+    fluid_vayu-user

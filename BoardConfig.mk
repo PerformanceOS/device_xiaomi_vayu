@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2021 ArrowOS
+# Copyright (C) 2018-2021 FluidOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -96,7 +96,7 @@ endif
 # Partitions
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 
-ifneq ($(ARROW_GAPPS),true)
+ifneq ($(USE_GAPPS),true)
 BOARD_PRODUCTIMAGE_EXTFS_INODE_COUNT := -1
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1887436800
 BOARD_SYSTEMIMAGE_EXTFS_INODE_COUNT := -1
