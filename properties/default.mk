@@ -26,6 +26,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.set_idle_timer_ms=80 \
     ro.surface_flinger.set_touch_timer_ms=200 \
     ro.surface_flinger.use_color_management=true \
+    vendor.display.disable_metadata_dynamic_fps=1 \
+    vendor.display.defer_fps_frame_count=4 \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # Enable app/sf phase offset as durations. The numbers below are translated from the existing
